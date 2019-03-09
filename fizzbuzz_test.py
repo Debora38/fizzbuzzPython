@@ -11,3 +11,6 @@ class MyFirstTests(unittest.TestCase):
 
     def test_buzz(self):
         self.assertEqual(check_fizzbuzz(5), 'buzz')
+
+    def test_fizzbuzz(self):
+        self.assertEqual(check_fizzbuzz(15), 'fizzbuzz')
